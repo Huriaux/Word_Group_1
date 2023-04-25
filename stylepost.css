@@ -66,6 +66,12 @@ h4{
     padding-right: 400px;
 }
 
+#blog{
+    color: rgb(70, 0, 128);
+    text-decoration: none;
+    font-weight: bold;
+}
+
 
 
 /*Pour changer la taille et la position des images*/
