@@ -1,61 +1,45 @@
 @import url('https://fonts.googleapis.com/css2? family= Abril+Fatface & family= Barlow+Condensed:wght@200 & family= Nunito:wght@300 & display=swap');
 @import url('https://fonts.googleapis.com/css2? family= Abril+Fatface & family= Barlow+Condensed:wght@200 & famille= Montserrat:wght@200 &family= Nunito:wght@300 & display=swap');
 
-
-body {
-    background-color: rgb(246, 245, 248);
-    font-family: 'Montserrat';
-}
-
-main{
-    border: 2px solid rgba(0, 0, 0, 0.466);
-    background-color: white;
-    box-shadow: 5px 5px 15px rgb(78, 73, 88);
-    height: 180vh;
-    margin: 10px;
+body{
+    font-family: 'Montserrat', sans-serif;
 }
 
 header {
-    background-position: top;
-    height: 200px;
-    margin: 10px;
-    display: flex;
-    justify-content: center;
-}
-
-nav {
     background-color: white;
+    padding: 20px;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
+   }
+
+nav{
+    margin-right: 175px;
+    word-spacing: 10px;
 }
 
-nav ul {
-    font-size: 10px;
-    margin-left: 35%;
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-end;
-    align-items: center;
+#logo{
+    margin-left: 150px;
+    width: 200px;
+    height: 200px;
+    
+    
 }
 
-nav ul li {
-    display: inline-block;
-}
-
-nav ul li a {
+.lien{
     text-decoration: none;
+   }
 
-    width: 100%;
-    display: block;
-    padding: 15px;
+.grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    padding-left: 400px;
+    padding-top: 100px;
+    padding-right: 510px;
 }
 
-nav img {
-    margin-right: 35%;
-    display: flex;
-    align-items: flex-start;
-}
+
 
 
 
@@ -66,8 +50,6 @@ fieldset {
     margin-right: 15%;
     display: flex;
 }
-
-
 
 h2.contactez-nous {
     font-family: 'Abril Fatface';
