@@ -2,18 +2,30 @@ body {
     border: 1px solid black;
     margin: 30px;
    
+   
 }
 
 main{
     
     margin-left: 150px;
     margin-right: 150px;
-    font-family: 'Abril Fatface', cursive;
-    font-family: 'Anuphan', sans-serif;
-    font-family: 'Fira Sans', sans-serif;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Montserrat';
     margin-bottom: 500px;
     
+}
+
+header {
+    background-color: white;
+    padding: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav{
+    
+    word-spacing: 10px;
+    margin-right: 80px;
 }
 
 .cont {
@@ -35,8 +47,6 @@ main{
 
 .h1 {
     font-family: 'Abril Fatface', cursive;
-    font-family: 'Anuphan', sans-serif;
-    font-family: 'Fira Sans', sans-serif;
     color: #d25976;
     font-size: 50px;
 }
@@ -69,6 +79,7 @@ main{
 .img2 {
     width: 200px;
     height: 50px;
+    padding-right: 10px;
     
 }
 
@@ -123,3 +134,10 @@ h1 {
     color: #d25976;
 }
 
+#blog{
+    color: blue;
+}
+
+.lien {
+    color: black;
+}
