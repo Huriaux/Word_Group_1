@@ -21,9 +21,7 @@ nav{
 #logo{
     margin-left: 150px;
     width: 200px;
-    height: 200px;
-    
-    
+    height: 200px;  
 }
 
 .lien{
@@ -124,3 +122,20 @@ input.envoyer {
     height: 50px;
     padding: 5px;
 }
+
+.envoyer {
+    background-color: #4CAF50; 
+    color: white;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 4px; 
+    cursor: pointer; 
+  }
+  
+  input.envoyer:hover {
+    background-color: #3e8e41;
+  }
+  
+  input.envoyer:active {
+    background-color: #1e5227;
+  }

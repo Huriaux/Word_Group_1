@@ -18,11 +18,11 @@
         <a href="" class="lien">BLOG</a> 
         <a href="" class="lien">CV</a> 
         <a href="" class="lien">A PROPOS</a> 
-        <a href="" class="lien">CONTACT</a>
+        <a href="#" class="lien">CONTACT</a>
        </nav>
     </header>
 
-                    <form method="post">
+                    <form method="post" action="#">
                 <fieldset><h2 class="contactez-nous">Contactez-nous</h2>
 
                     <pre></pre>
@@ -43,11 +43,11 @@
                     <pre></pre>
                                     <!--Prénom-->
                             <label for="firstname"><strong>Prénom </strong></label>
-                                <input type="text" name="Prénom" id="firstname" maxlength="30" autofocus>
+                                <input type="text" name="Prénom" id="firstname" maxlength="30" required autofocus>
                     <pre></pre>
                                     <!--Nom-->
                             <label for="nameinput"><strong>Nom </strong></label>
-                                <input type="text" name="Nom" id="nameinput"  maxlength="30">
+                                <input type="text" name="Nom" id="nameinput"  maxlength="30" required>
                     <pre></pre>
                                     <!--Âge-->
                             <label for="age"><strong>Âge </strong></label>
@@ -326,14 +326,15 @@
                                 <textarea name="message" id="msg" cols="30" rows="10"></textarea>
                         </div>
                     </fieldset>
-            </form>
-
-
                     <pre>
         
                     </pre>
                         <div class="bouton">
                                 <input class="envoyer" type="submit" value="Envoyer">
                         </div>
+            </form>
+
+
+
 </body>
 </html>
