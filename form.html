@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="fr">
+<html lang="zxx">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -36,34 +36,34 @@
                             <img src="images/illustration.png" alt="Illustration">
                         </div>
 
-                        <div class="formulaire">
+                    <div class="formulaire">
                                 <!--Civilité-->
                             <label for="civil"><strong>Civilité</strong></label>
 
-                                <select name="civilité" id="civil">
+                                <select name="civilité" id="civil" class="input22">
                                     <option value="Madame">Madame</option>
                                     <option value="Monsieur">Monsieur</option>
                                 </select>
                     <pre></pre>
                                     <!--Prénom-->
-                            <label for="firstname"><strong>Prénom </strong></label>
-                                <input type="text" name="Prénom" id="firstname" maxlength="30" autofocus>
+                            <label for="firstname"><strong>Prénom</strong></label>
+                                <input type="text" name="Prénom" id="firstname" maxlength="30"  placeholder ='Votre prénom...' autofocus class="input22" required > 
                     <pre></pre>
                                     <!--Nom-->
                             <label for="nameinput"><strong>Nom </strong></label>
-                                <input type="text" name="Nom" id="nameinput"  maxlength="30">
+                                <input type="text" name="Nom" id="nameinput"  maxlength="30" class="input22" placeholder="Votre nom..." required>
                     <pre></pre>
                                     <!--Âge-->
                             <label for="age"><strong>Âge </strong></label>
-                                <input type="number" name="Âge" id="age" min="0" max="100">
+                                <input type="number" name="Âge" id="age" min="0" max="100" class="input22" placeholder="Votre âge..." required>
                     <pre></pre>
                                     <!--Email-->
                             <label for="emailinput"><strong>Entrez l'email :</strong></label>
-                                <input type="email" name="email" id="emailinput" placeholder="contact@demo.fr">
+                                <input type="email" name="email" id="emailinput" placeholder="contact@demo.fr" class="input22">
                     <pre></pre>
                                     <!--Nationalié-->
                             <label><strong>Nationalité :</strong></label>
-                                    <select name="country" id="country">
+                                    <select name="country" id="country" class="input22">
                                         <option value="France" selected="selected">France </option>
         
                                         <option value="Afghanistan">Afghanistan </option>
@@ -323,21 +323,30 @@
                     <pre></pre>
                                     <!--Datde de naissance-->
                             <label><strong>Date de naissance</strong></label>
-                                <input type="date">
+                                <input type="date" class="input22">
                     <pre>
                     </pre>
                             <label><strong>Votre message :</strong></label>
-                                <textarea name="message" id="msg" cols="30" rows="10"></textarea>
-                        </div>
+                                <textarea name="message" id="msg" cols="30" rows="10" placeholder="Un message svp"></textarea>
+                </div>
+
                     </fieldset>
+
+                    <pre></pre> 
+
+                    <div class="bouton">
+                            
+                        <input type="submit" class="envoyer" value="Envoyer">
+                    </div>
             </form>
 
 
                     <pre>
-        
+
                     </pre>
-                        <div class="bouton">
-                                <input class="envoyer" type="submit" value="Envoyer">
-                        </div>
+
+                        
+                        
 </body>
 </html>
+
