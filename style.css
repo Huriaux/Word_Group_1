@@ -1,10 +1,13 @@
 body {
     border: 1px solid black;
     margin: 30px;
-   
+    font-family: 'Montserrat', sans-serif;
    
 }
-
+a:hover {
+    color: rgb(70, 0, 128);
+    font-weight: bold;
+}
 main{
     
     margin-left: 150px;
@@ -16,17 +19,65 @@ main{
 
 header {
     background-color: white;
-    padding: 40px;
+    margin-left: 40px;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
+.header1 {
+    background-color: white;
+    margin-left: 20px;
+    margin-right: 168px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header2 {
+    background-color: white;
+    margin-left: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    
+   
+    
+    
+}
+
+.header3 {
+    background-color: white;
+    margin-left: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
 nav{
     
     word-spacing: 10px;
-    margin-right: 80px;
+    
 }
+
+.nav1 {
+    word-spacing: 10px;
+    margin-right: 100px;
+}
+
+.nav2 {
+    word-spacing: 10px;
+    margin-right: 250px;
+}
+
+.nav3 {
+    word-spacing: 10px;
+    margin-right: 400px;
+    
+}
+
 
 .cont {
     display: flex;
@@ -51,7 +102,7 @@ nav{
     font-size: 50px;
 }
 
-.h2 {
+.h22 {
     font-size: 40px;
 }
 
@@ -136,8 +187,356 @@ h1 {
 
 #blog{
     color: blue;
+    
 }
 
 .lien {
     color: black;
+}
+/*apropos post*/
+.h111 {
+    font-family: 'Abril Fatface', cursive;
+    color: #d25976;
+    padding-left: 200px;
+}
+
+.h222{
+    padding-left: 200px;
+    color: blue;
+    
+}
+
+h3{
+    padding-left: 200px;
+    color: blue;
+}
+
+h4{
+    color: #d25976;
+    font-size: 40px;
+}
+
+/*ID*/
+
+#logo{
+    width: 200px;
+    height: 200px;
+    margin-left: 280px;
+    
+   }
+#logo2{
+    width: 200px;
+    height: 200px;
+    margin-left: 180px;
+}
+
+#logo3{
+    width: 200px;
+    height: 200px;
+    margin-left: 200px;
+}
+
+#mac{
+    padding-left: 200px;
+    width: 1050px;
+    height: 700px;
+   }
+
+#parah1{
+    padding-left: 200px;
+    padding-right: 250px;
+    text-align: justify;
+}
+
+#parah2{
+    padding-left: 200px;
+    padding-right: 250px;
+    text-align: justify;
+}
+
+#parah3{
+    padding-left: 200px;
+    padding-right: 250px;
+    text-align: justify;
+    
+}
+
+#blog{
+    color: rgb(70, 0, 128);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+
+
+/*Pour changer la taille et la position des images*/
+#twitter{
+    width: 17px;
+    padding-right: 5px;
+}
+
+#linkedin{
+    width: 17px;
+    padding-right: 5px;
+}
+
+#medium{
+    width: 17px;
+    padding-right: 5px;
+}
+
+#illustration1 {
+    height: 470px;
+    width: 500px;
+    margin-left: 150px;
+    
+
+}
+
+
+
+/*Pour changer le style des liens*/
+
+#lientwitter{
+    text-decoration: none;
+    color: white;
+
+}
+
+#lienlinkedin{
+    text-decoration: none;
+    color: white;
+
+
+}
+
+#lienmedium{
+    text-decoration: none;
+    color: white;
+
+}
+
+
+/*Class*/
+
+.lien{
+    text-decoration: none;
+   }
+
+.grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    padding-left: 400px;
+    padding-top: 100px;
+    padding-right: 510px;
+    margin-right: 100px;
+    
+    
+    
+}
+
+.grid1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    padding-left: 500px;
+    padding-top: 100px;
+    padding-right: 800px;
+    margin-right: 100px;
+    gap: 40px;
+    
+}
+
+.twitter{
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    width: 175px;
+    height: 40px;
+    background-color: #1DA1F2 ;
+    color: white;
+    text-align: center;
+    padding-top: 20px;
+    margin-top: -257px;
+    margin-left: -150px;
+    
+    
+    
+    
+}
+
+.linkedin{
+    grid-column-start: 2;
+    grid-column-end: 2;
+    grid-row-start: 2;
+    grid-row-end: 2;
+    width: 175px;
+    height: 40px;
+    background-color: #0072B1 ;
+    color: white;
+    text-align: center;
+    padding-top: 20px;
+    margin-top: -257px;
+    margin-left: -150px;
+}
+
+.medium{
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 2;
+    grid-row-end: 2;
+    width: 175px;
+    height: 40px;
+    background-color: black ;
+    color: white;
+    text-align: center;
+    padding-top: 20px;
+    margin-top: -257px;
+    margin-left: -150px;
+}
+
+.apropos{
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 1;
+    width: 660px;
+    height: 100px;
+    margin-left: -150px;
+    
+}
+
+.apropos2 {
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 1;
+    width: 660px;
+    height: 100px;
+    margin-left: -150px;
+    margin-top: -500px;
+}
+
+.illustration{
+    grid-row-start: 1;
+    grid-row-end: 5;
+    grid-column-start: 4;
+    grid-column-end: 4;
+    margin-left: 100px;
+    margin-top: 40px;
+}
+
+.illustration2 {
+    height: 100px;
+    width: 100px;
+    margin-top: -500px;
+    
+    
+}
+
+div.illustration2 img{
+    height: 360px;
+    width: 360px;
+    
+    
+}
+/*formulaire*/
+
+.grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    padding-left: 400px;
+    padding-top: 100px;
+    padding-right: 510px;
+}
+
+
+
+
+
+
+fieldset {
+    position: relative;
+    height: 80vh;
+    margin-left: 15%;
+    margin-right: 15%;
+    display: flex;
+}
+
+h2.contactez-nous {
+    font-family: 'Abril Fatface';
+    color: #d25976;
+    position: absolute;
+    padding-left: 20px;
+    display: flex;
+    align-content: flex-start;
+}
+
+
+.illustration {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+
+.illustration img {
+    height: 40%;
+    width: 40%;
+    margin-right: 150px;
+}
+
+
+.formulaire {
+    position: absolute;
+    height: auto;
+    width: 90%;
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-self: flex-end;
+}
+
+input {
+    width: 50%;
+}
+
+select {
+    width: 50%;
+}
+
+
+textarea#msg {
+    display: block;
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 20px;
+
+}
+
+.bouton {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+input.envoyer {
+    font-weight: bold;
+    background-color: rgba(16, 16, 80, 0.849);
+    border: 1px solid rgba(5, 5, 48, 0.651);
+    color: white;
+    width: 150px;
+    height: 50px;
+    padding: 5px;
+    margin-bottom: 50px;
 }
