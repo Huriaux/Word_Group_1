@@ -2,26 +2,25 @@ body {
     border: 1px solid black;
     margin: 30px;
     font-family: 'Montserrat', sans-serif;
-   
 }
+
 a:hover {
     color: rgb(70, 0, 128);
     font-weight: bold;
 }
+
 a {
     text-decoration:none;
-    }
+}
    
 a { color: #d25976; }
     .plus { color: #d25976;}
 
 main{
-    
     margin-left: 150px;
     margin-right: 150px;
     font-family: 'Montserrat';
     margin-bottom: 500px;
-    
 }
 
 header {
@@ -47,11 +46,6 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    
-    
-   
-    
-    
 }
 
 .header3 {
@@ -62,9 +56,15 @@ header {
     align-items: center;
 }
 
+.header4 {
+    height: 250px;
+    width: 100%;
+    margin: 0;
+}
+
 
 nav{
-    
+
     word-spacing: 10px;
     
 }
@@ -82,9 +82,11 @@ nav{
 .nav3 {
     word-spacing: 10px;
     margin-right: 400px;
-    
 }
 
+.nav4 {
+    margin-right: 225px;
+}
 
 .cont {
     display: flex;
@@ -230,8 +232,8 @@ h4{
     width: 200px;
     height: 200px;
     margin-left: 280px;
-    
-   }
+}
+
 #logo2{
     width: 200px;
     height: 200px;
@@ -242,6 +244,12 @@ h4{
     width: 200px;
     height: 200px;
     margin-left: 200px;
+}
+
+#logo4{
+    width: 200px;
+    height: 200px;
+    margin-left: 175px;
 }
 
 #mac{
@@ -273,6 +281,13 @@ h4{
     color: rgb(70, 0, 128);
     text-decoration: none;
     font-weight: bold;
+}
+
+.nous {
+    width: 100%;
+    font-weight: bold;
+    padding-left: 75px;
+    padding-top: 20px;
 }
 
 
@@ -566,4 +581,89 @@ input.envoyer {
 .input22 {
     width: 50%;
     box-sizing: border-box;
+}
+
+
+
+/* Page CV */
+
+.fond {
+    background-image: url(images/fond.jpg);
+    border: 0;
+    margin: 0;
+    height: 125vh;
+}
+
+.présentation {
+    border: 1px solid white;
+    box-shadow: 0px 0px 10px rgba(35, 35, 58, 0.349);
+    background-color: white;
+    border-radius: 10px;
+    margin-top: 100px ;
+    margin-left: 15%;
+    margin-right: 15%;
+    padding: 10px;
+}
+
+
+.présentation img {
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+}
+
+h3.titre-présentation {
+    margin: 0;
+    margin-top: 50px;
+    font-family: 'Montserrat', sans-serif;
+    color: #d25976;
+}
+
+#Titre-Benoit {
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 200px;
+}
+
+.présentation p {
+    text-align: justify;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.Alexis {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 15px;
+}
+
+.Alexis p {
+    padding: 10px 10px 10px 20px;
+}
+
+
+
+.Benoit {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+    gap: 15px;
+}
+
+.Benoit p {
+    padding: 10px 20px 10px 10px;
+}
+
+
+
+
+.Cecile {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 15px;
+}
+
+.Cecile p {
+    padding: 10px 10px 10px 20px;
 }
